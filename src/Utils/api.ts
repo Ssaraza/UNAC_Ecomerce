@@ -1,4 +1,4 @@
-import type { Product } from "../Components/Types/Products";
+import type { Product } from "../Types/Products";
 import productsData from "../data/products.json";
 
  let products: Product[] = [...productsData];
