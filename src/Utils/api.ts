@@ -1,7 +1,7 @@
 import type { Product } from "../Types/Products";
-import productsData from "../data/products.json";
+import productsData from "../Data/Products.json";
 
- let products: Product[] = [...productsData];
+const products: Product[] = [...productsData];
 
  export const getProducts = (): Product[] => {
     return products;
